@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'accounts/style.css' %}">
+</head>
+
+<body>
+
+<div class="wrapper">
+    <div class="card">
+
+        <h2>Welcome, {{ user.username }}!</h2>
+        <p>You are now logged in.</p>
+
+        <a href="{% url 'profile' %}">View Profile</a><br><br>
+
+        <a href="{% url 'logout_user' %}" class="logout-btn">Logout</a>
+
+    </div>
+</div>
+
+</body>
+</html>

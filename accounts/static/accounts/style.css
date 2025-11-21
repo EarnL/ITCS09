@@ -1,0 +1,91 @@
+/* Background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0fdf4; /* very light green */
+    margin: 0;
+    padding: 0;
+}
+
+/* Center wrapper */
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card container */
+.card {
+    width: 380px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #d5f5e3;  /* soft green border */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+}
+
+/* Headers */
+h2 {
+    text-align: center;
+    color: #1e8449; /* deep green */
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+input, select, textarea {
+    width: 93%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #c2e8ce;
+    border-radius: 6px;
+    font-size: 14px;
+    background: #ffffff;
+}
+
+input:focus {
+    border-color: #2ecc71;
+    box-shadow: 0 0 4px rgba(46, 204, 113, 0.4);
+}
+
+button, .logout-btn {
+    width: 30%;
+    padding: 12px;
+    background: #2ecc71;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 15px auto 0 auto;   /* Centering */
+    display: block;             /* Makes margin auto work */
+    text-align: center;
+}
+
+
+button:hover, .logout-btn:hover {
+    background: #27ae60; /* darker green */
+}
+
+/* Messages */
+.alert {
+    padding: 10px;
+    background: #fde2e2;
+    color: #b30000;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+/* Links */
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+a {
+    color: #1e8449; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

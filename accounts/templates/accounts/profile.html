@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Profile</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'accounts/style.css' %}">
+</head>
+
+<body>
+
+<div class="wrapper">
+    <div class="card">
+
+        <h2>My Profile</h2>
+
+        <p><b>Username:</b> {{ user.username }}</p>
+        <p><b>Email:</b> {{ user.email }}</p>
+
+        <a href="{% url 'dashboard' %}">Back to Dashboard</a>
+
+    </div>
+</div>
+
+</body>
+</html>
