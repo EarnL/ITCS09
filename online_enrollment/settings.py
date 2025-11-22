@@ -25,7 +25,13 @@ SECRET_KEY = 'django-insecure-u(65gio=k0os($n$3rj!rey5fvzz!)s$av4ef)5jm&p6thm!ar
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '127.0.0.1',       # Localhost access
+    'localhost',       # Localhost access via name
+    'earnl.pythonanywhere.com',   # PythonAnywhere
+    'www.earnl.pythonanywhere.com' # PythonAnywhere
+]
+
 
 
 # Application definition
